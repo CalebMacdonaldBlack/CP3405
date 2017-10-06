@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="net.nebuladevelopers.parkme.activities.LoginActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </View>
+
+    <TextView
+        android:id="@+id/email_error_message_text_view"
+        android:layout_width="260dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/email_error_message"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/password_error_message_text_view"
+        android:layout_width="260dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/password_error_message"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_edit_text"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:paddingBottom="3dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="3dp" />
+
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_edit_text"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="7dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/accent_button"
+            android:minHeight="0dp"
+            android:padding="7dp"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/primary_button"
+            android:minHeight="0dp"
+            android:padding="7dp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</LinearLayout>

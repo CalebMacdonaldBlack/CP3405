@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "539851752756",
+    "firebase_url": "https://parkme-f04a4.firebaseio.com",
+    "project_id": "parkme-f04a4",
+    "storage_bucket": "parkme-f04a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539851752756:android:5d1e910d16812c88",
+        "android_client_info": {
+          "package_name": "net.nebuladevelopers.parkme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539851752756-nh4ecg5jr63t1aj44lptok7gj6k1g35n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.nebuladevelopers.parkme",
+            "certificate_hash": "6ad012c9a2429d9b0615d3b2c384172f016e0a14"
+          }
+        },
+        {
+          "client_id": "539851752756-l50legd0ggiickp414ff7sll2c2he9hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL9luSdQnyD1PL_Zqw3dl3Rpqi5JhOQzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539851752756-l50legd0ggiickp414ff7sll2c2he9hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
