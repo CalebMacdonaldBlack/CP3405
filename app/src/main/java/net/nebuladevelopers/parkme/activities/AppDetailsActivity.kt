@@ -1,5 +1,6 @@
 package net.nebuladevelopers.parkme.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -11,6 +12,7 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_app_details.*
 import kotlinx.android.synthetic.main.app_bar_app_details.*
 import net.nebuladevelopers.parkme.R
+import net.nebuladevelopers.parkme.utils.Authentication
 
 class AppDetailsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -40,42 +42,24 @@ class AppDetailsActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.app_details, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        when (item.itemId) {
-            R.id.action_settings -> return true
-            else -> return super.onOptionsItemSelected(item)
-        }
-    }
-
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.nav_home -> {
+                startActivity(Intent(this, HomeActivity::class.java))
             }
-            R.id.nav_gallery -> {
+            R.id.nav_my_profile -> {
 
             }
-            R.id.nav_slideshow -> {
-
+            R.id.nav_settings -> {
+                startActivity(Intent(this, SettingsActivity::class.java))
             }
-            R.id.nav_manage -> {
-
+            R.id.nav_app_info -> {
+                startActivity(Intent(this, AppDetailsActivity::class.java))
             }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
+            R.id.nav_logout -> {
+                Authentication.signOut()
+                startActivity(Intent(this, LoginActivity::class.java))
             }
         }
 

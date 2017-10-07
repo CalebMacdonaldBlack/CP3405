@@ -12,6 +12,10 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_settings.*
 import kotlinx.android.synthetic.main.app_bar_settings.*
 import net.nebuladevelopers.parkme.R
+import net.nebuladevelopers.parkme.utils.Authentication
+import android.widget.TextView
+
+
 
 class SettingsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -31,6 +35,11 @@ class SettingsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
+
+        val versionName = applicationContext.packageManager
+                .getPackageInfo(applicationContext.packageName, 0).versionName
+        val tv = findViewById<TextView>(R.id.buildNumber)
+        tv.text = versionName
     }
 
     override fun onBackPressed() {
@@ -54,13 +63,11 @@ class SettingsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
                 startActivity(Intent(this, SettingsActivity::class.java))
             }
             R.id.nav_app_info -> {
-
-            }
-            R.id.nav_share -> {
-
+                startActivity(Intent(this, AppDetailsActivity::class.java))
             }
             R.id.nav_logout -> {
-
+                Authentication.signOut()
+                startActivity(Intent(this, LoginActivity::class.java))
             }
         }
 

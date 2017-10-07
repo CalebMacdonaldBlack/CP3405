@@ -18,6 +18,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import net.nebuladevelopers.parkme.R
+import net.nebuladevelopers.parkme.utils.Authentication
 
 class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnNavigationItemSelectedListener {
 
@@ -76,7 +77,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_home -> {
-                // Handle the camera action
+                startActivity(Intent(this, HomeActivity::class.java))
             }
             R.id.nav_my_profile -> {
 
@@ -87,11 +88,9 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
             R.id.nav_app_info -> {
                 startActivity(Intent(this, AppDetailsActivity::class.java))
             }
-            R.id.nav_share -> {
-
-            }
             R.id.nav_logout -> {
-
+                Authentication.signOut()
+                startActivity(Intent(this, LoginActivity::class.java))
             }
         }
 
