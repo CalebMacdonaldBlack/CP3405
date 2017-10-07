@@ -85,7 +85,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
                 startActivity(Intent(this, SettingsActivity::class.java))
             }
             R.id.nav_app_info -> {
-
+                startActivity(Intent(this, AppDetailsActivity::class.java))
             }
             R.id.nav_share -> {
 
