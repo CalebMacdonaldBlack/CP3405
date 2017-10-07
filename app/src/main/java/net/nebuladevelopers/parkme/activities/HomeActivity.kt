@@ -1,5 +1,6 @@
 package net.nebuladevelopers.parkme.activities
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.NavigationView
@@ -81,7 +82,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
 
             }
             R.id.nav_settings -> {
-
+                startActivity(Intent(this, SettingsActivity::class.java))
             }
             R.id.nav_app_info -> {
 
