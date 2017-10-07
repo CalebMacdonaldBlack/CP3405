@@ -16,4 +16,5 @@
     <string name="invalid_credentials">Incorrect password</string>
     <string name="account_already_exists">An account with this email already exists</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">Map</string>
 </resources>
