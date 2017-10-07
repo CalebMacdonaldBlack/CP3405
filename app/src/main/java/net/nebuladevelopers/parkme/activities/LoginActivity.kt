@@ -82,7 +82,7 @@ class LoginActivity : AppCompatActivity() {
                         parkme, email.toString(),
                         password.toString(),
                         {
-                            startActivity(Intent(applicationContext, MainActivity::class.java))
+                            startActivity(Intent(applicationContext, HomeActivity::class.java))
                         },
                         { e ->
                             println(e)
@@ -104,7 +104,7 @@ class LoginActivity : AppCompatActivity() {
                         parkme, email.toString(),
                         password.toString(),
                         {
-                            startActivity(Intent(applicationContext, MainActivity::class.java))
+                            startActivity(Intent(applicationContext, HomeActivity::class.java))
                         },
                         { e ->
                             enableLoginScreen()

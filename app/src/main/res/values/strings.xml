@@ -15,6 +15,5 @@
     <string name="account_doesnt_exist_error_message">Account with this email does not exist</string>
     <string name="invalid_credentials">Incorrect password</string>
     <string name="account_already_exists">An account with this email already exists</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_home">Map</string>
+    <string name="title_activity_home">Park Me</string>
 </resources>
