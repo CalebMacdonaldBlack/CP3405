@@ -35,11 +35,6 @@ class SettingsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
-
-        val versionName = applicationContext.packageManager
-                .getPackageInfo(applicationContext.packageName, 0).versionName
-        val tv = findViewById<TextView>(R.id.buildNumber)
-        tv.text = versionName
     }
 
     override fun onBackPressed() {

@@ -14,11 +14,12 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import net.nebuladevelopers.parkme.R
 import net.nebuladevelopers.parkme.utils.Authentication
+import net.nebuladevelopers.parkme.utils.Routes
+
 
 class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnNavigationItemSelectedListener {
 
@@ -33,11 +34,6 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
         mapFragment.getMapAsync(this)
 
         setSupportActionBar(toolbar)
-
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
-        }
 
         val toggle = ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
@@ -60,9 +56,11 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val townsville = LatLng(-19.329285, 146.759358)
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(townsville, 17f))
+//        Routes.addRouteToMap(mMap,"14", "17")
+        Routes.addRouteToMap(mMap,"18", "34")
+//        Routes.addRouteToMap(mMap,"34", "17")
     }
 
     override fun onBackPressed() {
