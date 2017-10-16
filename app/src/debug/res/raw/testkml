@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <!-- created by GmapGIS.com -->
+   <Document>
+      <name>MynameKML file polygon</name>
+      <description>Some descrition</description>
+      <Style id="polyStyID_0">
+         <LineStyle>
+            <color>FF0000FF</color>
+            <width>5</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>660088ff</color>
+         </PolyStyle>
+      </Style>
+      <Style id="polyStyID_1">
+         <LineStyle>
+            <color>FF008000</color>
+            <width>2</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>4D008000</color>
+         </PolyStyle>
+      </Style>
+      <Style id="polyStyID_2">
+         <LineStyle>
+            <color>FF0000FF</color>
+            <width>2</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>4D0000FF</color>
+         </PolyStyle>
+      </Style>
+      <Style id="polyStyID_3">
+         <LineStyle>
+            <color>FF00CC99</color>
+            <width>2</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>4D00CC99</color>
+         </PolyStyle>
+      </Style>
+      <Style id="polyStyID_4">
+         <LineStyle>
+            <color>FF0066FF</color>
+            <width>2</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>4D0066FF</color>
+         </PolyStyle>
+      </Style>
+      <Placemark>
+         <name>Polygon 1</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75999,-19.33015,0.0
+146.76018,-19.32971,0.0
+146.75944,-19.32964,0.0
+146.75933,-19.33056,0.0
+146.75951,-19.33057,0.0
+146.75955,-19.33022,0.0
+146.75956,-19.33011,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 2</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76026,-19.33033,0.0
+146.75953,-19.33162,0.0
+146.75962,-19.33165,0.0
+146.76036,-19.33038,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 3</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76035,-19.33001,0.0
+146.76051,-19.33006,0.0
+146.76063,-19.32979,0.0
+146.76072,-19.32942,0.0
+146.76074,-19.32922,0.0
+146.76059,-19.32921,0.0
+146.76049,-19.32961,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 4</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76077,-19.32901,0.0
+146.76062,-19.32899,0.0
+146.7606,-19.32868,0.0
+146.7606,-19.32689,0.0
+146.76079,-19.32689,0.0
+146.76077,-19.32795,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 5</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76038,-19.32678,0.0
+146.76042,-19.32638,0.0
+146.76006,-19.32634,0.0
+146.76003,-19.32656,0.0
+146.76022,-19.32658,0.0
+146.7602,-19.32674,0.0
+146.76025,-19.32675,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 6</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76076,-19.32667,0.0
+146.76071,-19.32663,0.0
+146.76069,-19.32655,0.0
+146.7607,-19.3265,0.0
+146.76085,-19.32622,0.0
+146.7609,-19.32617,0.0
+146.76102,-19.32621,0.0
+146.76095,-19.32643,0.0
+146.7609,-19.32653,0.0
+146.76082,-19.32662,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 7</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76182,-19.32494,0.0
+146.76197,-19.32501,0.0
+146.76193,-19.32509,0.0
+146.76207,-19.32517,0.0
+146.76191,-19.32544,0.0
+146.76204,-19.32551,0.0
+146.76171,-19.3261,0.0
+146.76131,-19.32606,0.0
+146.76115,-19.3261,0.0
+146.76111,-19.32601,0.0
+146.76122,-19.32597,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 8</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75997,-19.32476,0.0
+146.76079,-19.32494,0.0
+146.76077,-19.32502,0.0
+146.76084,-19.32503,0.0
+146.7608,-19.32537,0.0
+146.76061,-19.32535,0.0
+146.76054,-19.32535,0.0
+146.76041,-19.32538,0.0
+146.76029,-19.32539,0.0
+146.76017,-19.32538,0.0
+146.76004,-19.3253,0.0
+146.76,-19.32522,0.0
+146.76003,-19.32517,0.0
+146.75988,-19.3251,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 9</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76054,-19.32447,0.0
+146.76049,-19.32462,0.0
+146.76044,-19.32472,0.0
+146.76046,-19.32478,0.0
+146.76051,-19.32481,0.0
+146.7605,-19.32485,0.0
+146.76073,-19.32491,0.0
+146.76075,-19.32486,0.0
+146.76098,-19.32476,0.0
+146.76101,-19.3248,0.0
+146.76114,-19.3247,0.0
+146.76125,-19.32459,0.0
+146.76133,-19.32446,0.0
+146.76141,-19.32429,0.0
+146.76112,-19.32415,0.0
+146.76094,-19.32444,0.0
+146.76097,-19.32447,0.0
+146.76093,-19.32452,0.0
+146.76073,-19.32447,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 10</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.76183,-19.3237,0.0
+146.76206,-19.32373,0.0
+146.76198,-19.32404,0.0
+146.76193,-19.32404,0.0
+146.76179,-19.32442,0.0
+146.76167,-19.32442,0.0
+146.76156,-19.3244,0.0
+146.76172,-19.32405,0.0
+146.76179,-19.32387,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 11</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75762,-19.33321,0.0
+146.75765,-19.33297,0.0
+146.7581,-19.33302,0.0
+146.75818,-19.33295,0.0
+146.75819,-19.33287,0.0
+146.7576,-19.33281,0.0
+146.75751,-19.33289,0.0
+146.7569,-19.33292,0.0
+146.75672,-19.33312,0.0
+146.75673,-19.33334,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 12</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75812,-19.33159,0.0
+146.75811,-19.33175,0.0
+146.75856,-19.33178,0.0
+146.75857,-19.33163,0.0
+146.75857,-19.33162,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 13</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75772,-19.32944,0.0
+146.75824,-19.32958,0.0
+146.75804,-19.33023,0.0
+146.75751,-19.33007,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 14</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75693,-19.32963,0.0
+146.75743,-19.32967,0.0
+146.75756,-19.32878,0.0
+146.75705,-19.32875,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 15</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75721,-19.32613,0.0
+146.75756,-19.32627,0.0
+146.75743,-19.32656,0.0
+146.75707,-19.32643,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 16</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75554,-19.32569,0.0
+146.75619,-19.3259,0.0
+146.7559,-19.32658,0.0
+146.75528,-19.32635,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 17</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75547,-19.32573,0.0
+146.75505,-19.32563,0.0
+146.75487,-19.3257,0.0
+146.7546,-19.32602,0.0
+146.75526,-19.3262,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 18</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75711,-19.32411,0.0
+146.75726,-19.32421,0.0
+146.75738,-19.32421,0.0
+146.75754,-19.32406,0.0
+146.7578,-19.32323,0.0
+146.75762,-19.3232,0.0
+146.75767,-19.32301,0.0
+146.75754,-19.32296,0.0
+146.7574,-19.32329,0.0
+146.75734,-19.32328,0.0
+146.75715,-19.32389,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 19</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75921,-19.32342,0.0
+146.75956,-19.32253,0.0
+146.7593,-19.32246,0.0
+146.75903,-19.32248,0.0
+146.75881,-19.32253,0.0
+146.75865,-19.32265,0.0
+146.75848,-19.32285,0.0
+146.75855,-19.32296,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 20</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.7557,-19.32938,0.0
+146.75576,-19.32937,0.0
+146.75577,-19.32879,0.0
+146.75579,-19.32848,0.0
+146.75583,-19.3281,0.0
+146.75578,-19.3281,0.0
+146.75573,-19.3286,0.0
+146.75571,-19.32901,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 21</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75589,-19.32937,0.0
+146.75596,-19.32937,0.0
+146.75597,-19.32884,0.0
+146.75599,-19.32856,0.0
+146.75605,-19.32814,0.0
+146.75615,-19.32777,0.0
+146.75608,-19.32776,0.0
+146.75599,-19.32814,0.0
+146.75593,-19.32855,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 22</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75606,-19.32733,0.0
+146.75612,-19.32735,0.0
+146.75641,-19.32667,0.0
+146.75635,-19.32665,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 23</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75625,-19.3274,0.0
+146.75629,-19.32741,0.0
+146.7566,-19.32673,0.0
+146.75654,-19.32671,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 24</name>
+         <description />
+         <styleUrl>#polyStyID_2</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75639,-19.32656,0.0
+146.75644,-19.32658,0.0
+146.75663,-19.32615,0.0
+146.75657,-19.32614,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 25</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75671,-19.32583,0.0
+146.75676,-19.32584,0.0
+146.75723,-19.32472,0.0
+146.75719,-19.32471,0.0
+146.75708,-19.32495,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 26</name>
+         <description />
+         <styleUrl>#polyStyID_3</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.7569,-19.32591,0.0
+146.75695,-19.32592,0.0
+146.75741,-19.32478,0.0
+146.75736,-19.32477,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+      <Placemark>
+         <name>Polygon 27</name>
+         <description />
+         <styleUrl>#polyStyID_4</styleUrl>
+         <Polygon>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+               <LinearRing>
+                  <coordinates>146.75761,-19.3248,0.0
+146.75798,-19.32497,0.0
+146.75796,-19.32525,0.0
+146.75822,-19.32537,0.0
+146.7581,-19.3256,0.0
+146.75801,-19.32584,0.0
+146.7576,-19.32569,0.0
+146.75755,-19.3256,0.0
+146.75738,-19.32554,0.0
+146.7575,-19.32529,0.0
+146.75748,-19.32507,0.0</coordinates>
+               </LinearRing>
+            </outerBoundaryIs>
+         </Polygon>
+      </Placemark>
+   </Document>
+</kml>
