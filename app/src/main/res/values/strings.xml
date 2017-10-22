@@ -16,7 +16,7 @@
     <string name="invalid_credentials">Incorrect password</string>
     <string name="account_already_exists">An account with this email already exists</string>
     <string name="title_activity_home">Park Me</string>
-    <string name="title_activity_settings">SettingsActivity</string>
-    <string name="title_activity_app_details">AppDetailsActivity</string>
-    <string name="title_activity_timetable">TimetableActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_app_details">App Details</string>
+    <string name="title_activity_timetable">Timetable</string>
 </resources>

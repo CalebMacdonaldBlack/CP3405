@@ -1,6 +1,7 @@
 package net.nebuladevelopers.parkme.activities
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -13,6 +14,9 @@ import kotlinx.android.synthetic.main.activity_app_details.*
 import kotlinx.android.synthetic.main.app_bar_app_details.*
 import net.nebuladevelopers.parkme.R
 import net.nebuladevelopers.parkme.utils.Authentication
+import android.net.Uri.fromParts
+
+
 
 class AppDetailsActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -21,9 +25,12 @@ class AppDetailsActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
         setContentView(R.layout.activity_app_details)
         setSupportActionBar(toolbar)
 
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+        app_details_fab.setOnClickListener { view ->
+            val emailIntent = Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                    "mailto", "parking@jcu.edu.au", null))
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Parking Enquiry")
+            emailIntent.putExtra(Intent.EXTRA_TEXT, "Hi, I would like to enquire about..")
+            startActivity(Intent.createChooser(emailIntent, "Parking Enquiry"))
         }
 
         val toggle = ActionBarDrawerToggle(
