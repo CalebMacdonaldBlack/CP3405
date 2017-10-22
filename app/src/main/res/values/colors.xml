@@ -7,4 +7,7 @@
     <color name="purple">#9D88BA</color>
     <color name="red">#E26863</color>
     <color name="green">#90C791</color>
+    <color name="legend_green">#c3ff96</color>
+    <color name="legend_orange">#ffcf7c</color>
+    <color name="legend_red">#ff7c7c</color>
 </resources>

@@ -8,6 +8,7 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import android.widget.Button
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -27,11 +28,13 @@ import java.util.*
 class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var mMap: GoogleMap
+    private var allParkDataUrl = "https://s3-ap-southeast-2.amazonaws.com/parkmejcu/parkdata"
+    private var freeParkDataUrl = "https://s3-ap-southeast-2.amazonaws.com/parkmejcu/parkdatafree"
+    private var currentUrl = allParkDataUrl
 
     private fun updateMap() {
         Thread(Runnable {
-            val parkDataURL = "https://s3-ap-southeast-2.amazonaws.com/parkmejcu/parkdata"
-            val url = URL(parkDataURL);
+            val url = URL(currentUrl);
             val urlConnection =  url.openConnection();
             val stream = BufferedInputStream(urlConnection.getInputStream());
             val layer = KmlLayer(mMap, stream, this)
@@ -56,6 +59,22 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
+
+         findViewById<Button>(R.id.freeParksBtn).setOnClickListener {
+             findViewById<Button>(R.id.freeParksBtn).alpha = 1f
+             findViewById<Button>(R.id.allParksBtn).alpha = 0.4f
+             println("FREE CLICKED")
+             currentUrl = freeParkDataUrl
+             updateMap()
+         }
+
+        findViewById<Button>(R.id.allParksBtn).setOnClickListener {
+            findViewById<Button>(R.id.freeParksBtn).alpha = 0.4f
+            findViewById<Button>(R.id.allParksBtn).alpha = 1f
+            println("ALL CLICKED")
+            currentUrl = allParkDataUrl
+            updateMap()
+        }
 
         nav_view.setNavigationItemSelectedListener(this)
     }
