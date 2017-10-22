@@ -105,7 +105,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback, NavigationView.OnN
                 startActivity(Intent(this, HomeActivity::class.java))
             }
             R.id.nav_my_profile -> {
-
+                startActivity(Intent(this, TimetableActivity::class.java))
             }
             R.id.nav_settings -> {
                 startActivity(Intent(this, SettingsActivity::class.java))

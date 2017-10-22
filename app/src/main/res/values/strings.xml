@@ -18,4 +18,5 @@
     <string name="title_activity_home">Park Me</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="title_activity_app_details">AppDetailsActivity</string>
+    <string name="title_activity_timetable">TimetableActivity</string>
 </resources>
