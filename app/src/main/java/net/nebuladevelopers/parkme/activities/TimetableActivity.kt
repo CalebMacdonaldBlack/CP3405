@@ -11,9 +11,8 @@ import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import android.view.Menu
 import android.view.MenuItem
-import kotlinx.android.synthetic.main.activity_app_details.*
+import kotlinx.android.synthetic.main.activity_timetable.*
 
 import net.nebuladevelopers.parkme.R
 import net.nebuladevelopers.parkme.utils.Authentication
@@ -25,6 +24,8 @@ class TimetableActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         setContentView(R.layout.activity_timetable)
         val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
+
+        webview.loadUrl("http://www.sunbus.com.au/townsville/bus-timetable/")
 
         val fab = findViewById<View>(R.id.fab) as FloatingActionButton
         fab.setOnClickListener { view ->
@@ -51,27 +52,6 @@ class TimetableActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.timetable, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        val id = item.itemId
-
-
-        if (id == R.id.action_settings) {
-            return true
-        }
-
-        return super.onOptionsItemSelected(item)
-    }
-
-
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
@@ -80,9 +60,6 @@ class TimetableActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             }
             R.id.nav_my_profile -> {
                 startActivity(Intent(this, TimetableActivity::class.java))
-            }
-            R.id.nav_settings -> {
-                startActivity(Intent(this, SettingsActivity::class.java))
             }
             R.id.nav_app_info -> {
                 startActivity(Intent(this, AppDetailsActivity::class.java))

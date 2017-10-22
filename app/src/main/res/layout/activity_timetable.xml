@@ -21,4 +21,11 @@
         android:fitsSystemWindows="true"
         app:menu="@menu/activity_main_drawer" />
 
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
 </android.support.v4.widget.DrawerLayout>

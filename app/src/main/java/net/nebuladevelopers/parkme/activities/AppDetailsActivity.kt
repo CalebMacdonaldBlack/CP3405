@@ -51,9 +51,6 @@ class AppDetailsActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
             R.id.nav_my_profile -> {
                 startActivity(Intent(this, TimetableActivity::class.java))
             }
-            R.id.nav_settings -> {
-                startActivity(Intent(this, SettingsActivity::class.java))
-            }
             R.id.nav_app_info -> {
                 startActivity(Intent(this, AppDetailsActivity::class.java))
             }
